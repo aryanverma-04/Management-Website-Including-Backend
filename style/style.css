@@ -167,6 +167,7 @@ a:hover{
 }
 
 .food-search{
+        background-color: black;
     background-image: url("https://github.com/aryanverma-04/crunchybites/blob/main/images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
