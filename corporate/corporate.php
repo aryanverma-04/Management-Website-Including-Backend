@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $insert = false;
 if(isset($_POST['name'])){
     // Set connection variables
@@ -39,7 +39,7 @@ if(isset($_POST['name'])){
     // Close the database connection
     $con->close();
 }
-?>
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -66,7 +66,7 @@ if(isset($_POST['name'])){
                 <div class="menu textright">
                     <ul>
                         <li>
-                            <a href="/project5/home/index.html">Home</a>
+                            <a href="home/index.html">Home</a>
                         </li>
                         <li>
                             <a href="/project5/location/location.html">Crunchy's Stores</a>
@@ -92,11 +92,11 @@ if(isset($_POST['name'])){
             </div>
         </section>
         <!--navbar section ends here -->
-        <?php
+<!--         <?php
         if($insert == true){
         echo "<p class='submitMsg'>Thanks for submitting your query, Our team will reply you soon.</p>";
         }
-    ?>
+    ?> -->
         <div class="enquiry">
             <form method="post">
                 <input type="text" name="name" id="name" placeholder="Enter your name">
